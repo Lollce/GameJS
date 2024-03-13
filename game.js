@@ -1,3 +1,4 @@
+<script></script>
 // Récupérer le canvas et son contexte
 var canvas = document.createElement("canvas");
 canvas.width = 800;
@@ -40,18 +41,25 @@ function moveSquare() {
 gameLoop();
 
 // Gestionnaire d'événements pour les touches de direction
+let x = 0;
+let y = 0;
+
 window.addEventListener("keydown", function (event) {
     switch (event.key) {
         case "ArrowUp":
+            case"z" :
             y -= 5;
             break;
         case "ArrowDown":
+            case "s" :
             y += 5;
             break;
         case "ArrowLeft":
+            case  "q":
             x -= 5;
             break;
         case "ArrowRight":
+            case  "d":
             x += 5;
             break;
     }
