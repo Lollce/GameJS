@@ -1,5 +1,4 @@
-<script></script>
-// Récupérer le canvas et son contexte
+// Création du canvas et récupération du contexte
 var canvas = document.createElement("canvas");
 canvas.width = 800;
 canvas.height = 600;
@@ -20,7 +19,7 @@ function drawSquare() {
 
 // Fonction de mise à jour
 function update() {
-    moveSquare(); // Déplace le carré
+    // moveSquare(); // Déplace le carré - Commenté pour utiliser les touches de direction
 }
 
 // Fonction principale du jeu
@@ -31,35 +30,26 @@ function gameLoop() {
     requestAnimationFrame(gameLoop); // Appelle la fonction de boucle de jeu récursivement
 }
 
-// Déplacer le carré en diagonale
-function moveSquare() {
-    x += 1;
-    y += 1;
-}
-
 // Lancer la boucle de jeu
 gameLoop();
 
 // Gestionnaire d'événements pour les touches de direction
-let x = 0;
-let y = 0;
-
 window.addEventListener("keydown", function (event) {
     switch (event.key) {
         case "ArrowUp":
-            case"z" :
+        case "z":
             y -= 5;
             break;
         case "ArrowDown":
-            case "s" :
+        case "s":
             y += 5;
             break;
         case "ArrowLeft":
-            case  "q":
+        case "q":
             x -= 5;
             break;
         case "ArrowRight":
-            case  "d":
+        case "d":
             x += 5;
             break;
     }
