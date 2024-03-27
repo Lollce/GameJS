@@ -2,6 +2,7 @@ p {
     color: white;
 }
 
-body {
-    background-image: url(/images/2d-pixel-dungeon-level-chip-set-01.webp);
-}
+
+canvas {
+        border: 3px solid rgb(0, 0, 0); /* Mise en gras de la bordure */
+    }

@@ -1,0 +1,65 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "map.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "Dungeon.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Props.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Props2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiles.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "map.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 477.6666666666667,
+                "y": 92.33333333333331
+            }
+        },
+        "map.tmx#Tiles": {
+            "scaleInDock": 1
+        }
+    },
+    "last.imagePath": "C:/Users/Maths/Downloads",
+    "map.height": 40,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 70,
+    "openFiles": [
+        "Tiles.tsx",
+        "map.tmx",
+        "Props.tsx",
+        "Props2.tsx",
+        "Dungeon.tsx"
+    ],
+    "project": "mapJS.tiled-project",
+    "recentFiles": [
+        "Tiles.tsx",
+        "Dungeon.tsx",
+        "Props2.tsx",
+        "Props.tsx",
+        "map.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
